@@ -4,7 +4,7 @@ Kaggle's [Give Me Some Credit Problem](https://kaggle.com/c/GiveMeSomeCredit)
 
 
 ### Identifiants
-Open the exemple_auth_sample.env file and replace the 'xxx' with your Kaggle and BigML credentials.
+Open the exemple_auth.env file and replace the 'xxx' with your Kaggle and BigML credentials.
 
 ### Available scripts
 In the <code>docker</code> directory, you can run:<br>
