@@ -6,3 +6,4 @@ papermill
 kaggle
 matplotlib
 rise
+xgboost
