@@ -1,4 +1,5 @@
-FROM ageron/handson-ml2
+FROM jupyter/datascience-notebook
 USER root
-RUN pip install BigML
-RUN pip install kaggle
+COPY docker/requirements.txt /tmp/
+RUN pip install -r /tmp/requirements.txt
+RUN jupyter contrib nbextension install
